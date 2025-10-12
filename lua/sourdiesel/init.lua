@@ -67,6 +67,11 @@ local highlights = {
   FoldColumn = { fg = thm.brightblue, bg = thm.nvim_bg },
   CursorLineFold = { fg = thm.brightmagenta, bg = thm.nvim_bg },
 
+  --Tabs
+  TabLine = { fg = thm.brightblack },
+  TabLineSel = { fg = thm.brightcyan },
+  TabLineFill = { bg = thm.nvim_bg },
+
   LineNr = { fg = thm.brightblack },
   FloatBorder = { fg = thm.brightblack },
   FloatTitle = { fg = thm.magenta },
