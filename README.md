@@ -32,12 +32,12 @@ vim.cmd.packadd('sourdiesel')
 
 ### Neovim 0.12+ vim.pack
 ```lua
-vim.pack.add({ url = 'https://github.com/<you>/sourdiesel', name = 'sourdiesel' })
+vim.pack.add({ url = 'https://github.com/vivek-x-jha/nvim-sourdiesel', name = 'sourdiesel' })
 ```
 
 ### lazy.nvim
 ```lua
-{ 'you/sourdiesel', name = 'sourdiesel', priority = 1000, lazy = false }
+{ 'vivek-x-jha/nvim-sourdiesel', name = 'sourdiesel', priority = 1000, lazy = false }
 ```
 
 ## Usage
