@@ -231,7 +231,7 @@ local highlights = {
   ['@diff.minus'] = { fg = thm.red },
   ['@diff.delta'] = { fg = thm.black },
 
-  ['@property.toml'] = { fg = thm.magenta },
+  ['@property.toml'] = { fg = thm.blue },
 
   ---------------------------- LSP / Completions -------------------------
   BlinkCmpMenu = { fg = thm.brightblack },
