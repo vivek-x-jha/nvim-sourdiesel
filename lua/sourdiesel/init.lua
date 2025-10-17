@@ -233,6 +233,8 @@ local highlights = {
 
   ['@property.toml'] = { fg = thm.blue },
 
+  ['@zshTypes'] = { fg = thm.magenta },
+
   ---------------------------- LSP / Completions -------------------------
   BlinkCmpMenu = { fg = thm.brightblack },
   BlinkCmpMenuBorder = { fg = thm.brightblack },
