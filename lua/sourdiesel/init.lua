@@ -326,7 +326,7 @@ local highlights = {
   DashGitSwitch = { fg = thm.brightwhite },
 
   ---------------------------- Nvim-Tree ----------------------------------
-  NvimTreeNormal = { fg = thm.black },
+  NvimTreeNormal = { fg = thm.white },
   NvimTreeCursorLine = { bg = thm.grey, bold = true },
   NvimTreeFileName = { fg = thm.white },
   NvimTreeExecFile = { fg = thm.brightgreen },
