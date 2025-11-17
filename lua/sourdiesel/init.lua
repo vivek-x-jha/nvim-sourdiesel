@@ -337,8 +337,6 @@ local highlights = {
   NvimTreeSymlink = { fg = thm.yellow },
   NvimTreeSymlinkFolderName = { fg = thm.yellow },
   NvimTreeModifiedIcon = { fg = thm.red },
-  NvimTreeBrewfile = { fg = thm.cyan },
-  DevIconBrewfile = { fg = thm.cyan },
 
   NvimTreeGitFileNewHl = { fg = thm.red },
   NvimTreeGitNewIcon = { link = 'NvimTreeGitFileNewHl' },
