@@ -28,7 +28,6 @@ local hexify = function(theme)
   return palette
 end
 
-
 local thm = hexify 'sourdiesel'
 --- @class Colorscheme
 --- @field setup fun(): nil -- Applies all highlight groups
@@ -329,7 +328,7 @@ local highlights = {
   ---------------------------- Nvim-Tree ----------------------------------
   NvimTreeNormal = { fg = thm.black },
   NvimTreeCursorLine = { bg = thm.grey, bold = true },
-  NvimTreeFileName = { fg = thm.black },
+  NvimTreeFileName = { fg = thm.white },
   NvimTreeExecFile = { fg = thm.brightgreen },
   NvimTreeSpecialFile = { fg = thm.brightyellow },
   NvimTreeFolderIcon = { fg = thm.blue },
