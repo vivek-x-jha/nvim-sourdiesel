@@ -348,6 +348,9 @@ local highlights = {
   NvimTreeGitStagedIcon = { link = 'NvimTreeGitFileStagedHl' },
 
   NvimTreeGitDeletedIcon = { fg = thm.green },
+  NvimTreeGitMergeIcon = { fg = thm.brightred },
+  NvimTreeGitFileMergeHL = { link = 'NvimTreeGitMergeIcon' },
+  NvimTreeGitFolderMergeHL = { link = 'NvimTreeGitFileMergeHL' },
 
   NvimTreeWindowPicker = { fg = thm.brightcyan, bg = thm.dark, bold = true },
 
