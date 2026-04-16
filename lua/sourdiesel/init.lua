@@ -231,7 +231,25 @@ local highlights = {
 
   ['@property.toml'] = { fg = thm.blue },
 
-  ['zshTypes'] = { fg = thm.magenta },
+  ------------------------------ Shell -----------------------------------
+  bashStatement = { fg = thm.magenta },
+  shStatement = { fg = thm.magenta },
+  shConditional = { fg = thm.magenta },
+  shRepeat = { fg = thm.yellow },
+  shOperator = { fg = thm.black },
+  shAlias = { fg = thm.red },
+  shSet = { fg = thm.magenta },
+  shSetList = { fg = thm.black },
+  shFunctionOne = { fg = thm.blue },
+  shFunctionTwo = { link = 'shFunctionOne' },
+  shFunctionThree = { link = 'shFunctionOne' },
+  shFunctionFour = { link = 'shFunctionOne' },
+  shFunctionCmdOne = { link = 'shFunctionOne' },
+  shFunctionCmdTwo = { link = 'shFunctionOne' },
+  shShellVariables = { fg = thm.magenta },
+  zshVariable = { fg = thm.black },
+  zshVariableDef = { link = 'zshVariable' },
+  zshTypes = { fg = thm.magenta },
 
   ---------------------------- LSP / Completions -------------------------
   BlinkCmpMenu = { fg = thm.brightblack },
