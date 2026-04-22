@@ -485,12 +485,12 @@ local highlights = {
   DevIconjs = { fg = thm.yellow },
   DevIconkt = { fg = thm.brightyellow },
   DevIconlock = { fg = thm.red },
-  DevIconlua = { fg = thm.blue },
+  DevIconlua = { fg = thm.brightwhite },
   DevIconmp3 = { fg = thm.white },
   DevIconmp4 = { fg = thm.white },
   DevIconout = { fg = thm.white },
   DevIconpng = { fg = thm.magenta },
-  DevIconpy = { fg = thm.cyan },
+  DevIconpy = { fg = thm.brightwhite },
   DevIcontoml = { fg = thm.blue },
   DevIconts = { fg = thm.brightcyan },
   DevIconttf = { fg = thm.white },
@@ -508,6 +508,7 @@ local highlights = {
   DevIconSvelte = { fg = thm.red },
   DevIconJava = { fg = thm.brightyellow },
   DevIconDart = { fg = thm.cyan },
+  DevIconSourdiesel = { fg = thm.cyan },
 }
 
 M.setup = function()
